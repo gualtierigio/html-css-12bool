@@ -1,10 +1,22 @@
 .pink{
+    height: 150px;
+    line-height: 150px;
     background-color: pink;
+    padding: 5px;
+    border: 1px solid black;
 }
 
+.pinky{
+    background-color: rgb(255, 109, 133);
+    height: 100%;
+    border: 1px solid pink;
+}
+
+
 [class^="col"]{
-    border: 1px solid black;
-    height: 100px;
-    line-height: 100px;
     text-align: center;
+}
+
+.container, .row{
+    height: 100%;
 }
